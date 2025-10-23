@@ -121,7 +121,7 @@ public class BGMManager : MonoBehaviour
     // }
 
 
-// ジョンウィックが電話をかけてくる時にBGMを止めるのに使うメソッド（Playerクラスで引用）
+// 敵が電話をかけてくる時にBGMを止めるのに使うメソッド（Playerクラスで引用）
     public void _BGMStop()
     {
         if (audioSource != null)
@@ -131,7 +131,7 @@ public class BGMManager : MonoBehaviour
         }
     }
 
-// ジョンウィックの電話が終わった後にBGMを再度再生するのに使うメソッド（Playerクラスで引用）
+// 敵の電話が終わった後にBGMを再度再生するのに使うメソッド（Playerクラスで引用）
     public void _BGMStart()
     {
         if (audioSource != null && !audioSource.isPlaying)
